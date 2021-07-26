@@ -1,4 +1,4 @@
-![Video for Email Templates](https://raw.githubusercontent.com/shrej/email-video/main/images/banner.png)
+![Video for Email Templates](assets/img/banner.png)
 
 > A delightfully simple way to add videos to your Email
 
@@ -9,5 +9,5 @@
 - Customize the video play button
 
 [Get Started](introduction)
-[Get it Now with Appexchange](https://appexchange.salesforce.com/)
+[Appexchange](https://appexchange.salesforce.com/)
 [GitHub](https://github.com/shrej/email-video)
