@@ -1,5 +1,7 @@
 # Video For Email Templates
 
+![Banner](docs/assets/img/banner.png)
+
 See our [documentation site](https://shrej.github.io/email-video/#/) for detailed installations steps.
 
 ## Features
