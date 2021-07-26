@@ -1,5 +1,4 @@
-![Banner](../images/banner.png)
-# Video for Email Templates
+![Video for Email Templates](https://raw.githubusercontent.com/shrej/email-video/main/images/banner.png)
 
 > A delightfully simple way to add videos to your Email
 
