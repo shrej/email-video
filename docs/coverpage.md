@@ -8,6 +8,6 @@
 - Add Custom Image Thumbnails for videos hosted on any platform
 - Customize the video play button
 
-[Get Started](introduction)
+[Get Started](quickstart)
 [Appexchange](https://appexchange.salesforce.com/)
 [GitHub](https://github.com/shrej/email-video)

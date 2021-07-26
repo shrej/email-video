@@ -1,7 +1,7 @@
 # Introduction
 
+![Video for Email Templates](assets/img/banner.png)
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fshrej%2Femail-video&hashtags=salesforcelabs,pardot)
-<a class="github-button" href="https://github.com/shrej/email-video" data-icon="octicon-star" data-show-count="true" aria-label="Star email video on GitHub">Star</a>
 
 ## Features
 

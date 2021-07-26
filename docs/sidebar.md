@@ -1,6 +1,9 @@
+![Video for Email Templates](assets/img/listing.png)
 - [Introduction](introduction)
-- [Setup Steps](setup)
+- [Quickstart](quickstart)
+- [Connecting to Pardot](connectingpardot)
+- [Demo Video](demo)
 - [Changelog](changelog)
 - **Links**
-- [![Appexchange Listing](assets/img/code.svg)Appexchange](https://appexchange.salesforce.com/)
+- [Appexchange Listing](https://appexchange.salesforce.com/)
 - [![Github Repo](assets/img/github.svg)Github](https://github.com/shrej/email-video)
