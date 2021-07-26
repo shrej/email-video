@@ -1,10 +1,10 @@
 {
-  "name": "videoviewer",
-  "author": "Shreynas Jain",
+  "name": "email-video",
+  "author": "Shreyans Jain",
   "license": "BSD-3-Clause",
   "private": true,
   "version": "1.0.0",
-  "description": "A lightning web component that allows you to preview video files or watch videos that are attached to a record.",
+  "description": "A lightning web component that allows you to easily add Videos to your Lighnting Email Templates",
   "scripts": {
     "lint": "npm run lint:lwc",
     "lint:lwc": "eslint force-app/main/default/lwc",
