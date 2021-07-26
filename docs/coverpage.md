@@ -9,5 +9,5 @@
 - Customize the video play button
 
 [Get Started](introduction)
-[Demo Sandbox](https://codesandbox.io/s/xv36w4695o)
-[GitHub](https://github.com/jhildenbiddle/docsify-themeable)
+[Get it Now with Appexchange](https://appexchange.salesforce.com/)
+[GitHub](https://github.com/shrej/email-video)
