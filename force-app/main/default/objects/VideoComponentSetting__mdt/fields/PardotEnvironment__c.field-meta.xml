@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PardotEnvironment__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The current org type for the connected Pardot Org.</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>The current org type for the connected Pardot Org.</inlineHelpText>
+    <label>Pardot Environment</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>demo</fullName>
+                <default>true</default>
+                <label>demo</label>
+            </value>
+            <value>
+                <fullName>production</fullName>
+                <default>false</default>
+                <label>production</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

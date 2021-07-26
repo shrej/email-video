@@ -1,0 +1,168 @@
+<template>
+  <!--[if mso]>
+    <table
+      role="presentation"
+      cellspacing="0"
+      cellpadding="0"
+      style="width: 100%; border-collapse: collapse; word-break: break-word"
+    >
+      <tr>
+        <td align="center" style="text-align: center">
+          <a
+            href={computedDestinationUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={computedImageUrl}
+              alt=""
+              width="450"
+              style="width: 450px; display: block; border: none"
+            />
+            &nbsp;
+          </a>
+        </td>
+      </tr>
+    </table>
+  <![endif]-->
+  <div
+    style="margin: 20px auto; max-width: 600px; min-width: 320px; mso-hide: all"
+  >
+    <a
+      href={computedDestinationUrl}
+      style="
+        background-color: #737373;
+        background-image: radial-gradient(circle at center, #737373, #1d1f21);
+        display: block;
+        text-decoration: none;
+        mso-hide: all;
+      "
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <div style="mso-hide: all">
+        <table
+          background={computedImageUrl}
+          border="0"
+          cellpadding="0"
+          cellspacing="0"
+          role="presentation"
+          style="
+            table-layout: fixed;
+            vertical-align: top;
+            border-spacing: 0;
+            border-collapse: collapse;
+            background-size: cover;
+            min-height: 180px;
+            min-width: 320px;
+            mso-hide: all;
+          "
+          width="100%"
+        >
+          <tr style="vertical-align: top; mso-hide: all" valign="top">
+            <td
+              style="word-break: break-word; vertical-align: top; mso-hide: all"
+              valign="top"
+              width="25%"
+            >
+              <img
+                alt=""
+                border="0"
+                src={aspectRatioAdjustmentImageUrl}
+                style="
+                  text-decoration: none;
+                  border: 0;
+                  height: auto;
+                  opacity: 0;
+                  visibility: hidden;
+                  display: block;
+                  mso-hide: all;
+                "
+                width="100%"
+              />
+            </td>
+            <td
+              if:false={showLightPlayButton}
+              align="center"
+              style="
+                word-break: break-word;
+                vertical-align: middle;
+                mso-hide: all;
+              "
+              valign="middle"
+              width="50%"
+            >
+              <div
+                style="
+                  display: inline-block;
+                  vertical-align: middle;
+                  background-color: #ffffff;
+                  border: 3px solid #ffffff;
+                  height: 60px;
+                  width: 60px;
+                  border-radius: 100%;
+                  mso-hide: all;
+                "
+              >
+                <div style="padding: 15px 23px; mso-hide: all">
+                  <div
+                    style="
+                      border-style: solid;
+                      border-width: 15px 0 15px 20px;
+                      display: block;
+                      font-size: 0;
+                      height: 0;
+                      width: 0;
+                      border-color: transparent transparent transparent #000000;
+                      mso-hide: all;
+                    "
+                  ></div>
+                </div>
+              </div>
+            </td>
+            <td
+              if:true={showLightPlayButton}
+              width="50%"
+              align="center"
+              valign="middle"
+              style="mso-hide: all"
+            >
+              <div
+                style="
+                  border: 4px solid white;
+                  border-radius: 50%;
+                  height: 34px;
+                  margin: 0 auto;
+                  padding: 18px 16px 18px 24px;
+                  width: 30px;
+                  mso-hide: all;
+                "
+              >
+                <div
+                  style="
+                    border-color: transparent transparent transparent white;
+                    border-style: solid;
+                    border-width: 17px 0 17px 30px;
+                    display: block;
+                    font-size: 0;
+                    height: 0;
+                    margin: 0 auto;
+                    width: 0;
+                    mso-hide: all;
+                  "
+                >
+                  &nbsp;
+                </div>
+              </div>
+            </td>
+            <td
+              style="word-break: break-word; vertical-align: top; mso-hide: all"
+              valign="top"
+              width="25%"
+            ></td>
+          </tr>
+        </table>
+      </div>
+    </a>
+  </div>
+</template>

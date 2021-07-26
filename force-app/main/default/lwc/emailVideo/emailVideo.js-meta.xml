@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+  <apiVersion>52.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Video</masterLabel>
+    <description
+  >A Video component for the Lightning Email Template Builder. Adds Play Button on Video Images, and allow users to select Custom Redirects as Click Targets</description>
+       <targets>
+      <target>lightningStatic__Email</target>
+   </targets>
+   <targetConfigs>
+      <targetConfig targets="lightningStatic__Email">
+         <property
+        name="destinationUrl"
+        type="String"
+        default=""
+        label="Destination URL"
+        placeholder="https://"
+        description="Enter destination URL for the Image Thumbnail. This can be a URL to a Youtube/Dailymotion Video or any other webpage. For example: https://www.youtube.com/watch?v=lNfRDKL03N0 or https://www.example.com/landingpagewithvideo."
+      />
+         <property
+        name="customRedirectUrl"
+        label="Pardot Custom Redirect URL"
+        type="String"
+        datasource="apex://PardotCustomRedirectPicker"
+        description="Select a Custom Redirect from the connected Pardot Org. If selected, it will take precedence over Destination URL."
+      />
+         <property
+        name="imageUrl"
+        type="String"
+        default=""
+        label="Image URL"
+        placeholder="https://"
+        description="Enter a URL for the image you want to display in the thumbnail. If entered, this url will take precedence over auto generated thumbnails from youtube/dailymotion."
+      />
+      <property
+        name="playButtonType"
+        type="String"
+        default="Light"
+        datasource="Light,Dark"
+        label="Video Play Button Style"
+        description="Select a style for the Play Button on the Video Image."
+      />
+      </targetConfig>
+   </targetConfigs>
+</LightningComponentBundle>

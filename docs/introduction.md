@@ -12,7 +12,7 @@
   Leverage the full power of Pardot custom redirects by selecting a Custom Redirect as the destination from your connected Pardot Org.
 
 - **Customize the video play button**<br>
-  Customize the play button to match your style
+  Customize the play button to match your thubmbnail background
 
 - **Tested on multiple email clients**<br>
   The play button is rendered on most modern email clients. For legacy clients like outlook, we fallback to an image.
