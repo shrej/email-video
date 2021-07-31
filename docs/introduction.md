@@ -5,7 +5,7 @@
 
 ## Features
 
-- **Easily add video thumbnails with a play button overlay to an email template**<br>
+- **Save time and effort by easily adding video thumbnails with a play button**<br>
   Simply type in the destination URL. If the video is hosted on Youtube/Dailymotion we get your thumbnail from the service. If the video is hosted elsewhere customize the thumbnail by adding your own image.
 
 - **Ability to Track video clicks and execute automation with Pardot Custom Redirects**<br>
