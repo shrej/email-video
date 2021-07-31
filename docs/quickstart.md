@@ -13,7 +13,16 @@ If you connect a Pardot Account, you get the additional ability to add custom re
 
 ## Usage
 
-If you do not want to connect this component to Pardot, you are all done now. Proceed to watch a [demo.](demo)
+![Component in action](assets/img/component.png)
+
+1. Add the component anywhere on your email template/content
+1. Provide a destination URL. This is where the email recipients would go when they click on the thumbnail. If this is a Youtube/ Dailymotion URL, we will fetch the thumbnail automatically.
+1. Select a Custom Redirect for the video thumbnail
+1. Optionally, you can also set a custom image as your thumbnail
+1. Choose from Light/ Dark play button to best suit your image
+
+
+ Proceed to watch a [demo.](demo)
 
 To utilize this component to its full potential we recommend connecting this component with Pardot. Follow these easy steps to add the ability to select Pardot Custom Redirects without ever leaving the Email Template Builder.
 
