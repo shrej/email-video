@@ -6,21 +6,16 @@
 ## Features
 
 - **Save time and effort by easily adding video thumbnails with a play button**<br>
-  Simply type in the destination URL. If the video is hosted on Youtube/Dailymotion we get your thumbnail from the service. If the video is hosted elsewhere customize the thumbnail by adding your own image.
 
 - **Ability to Track video clicks and execute automation with Pardot Custom Redirects**<br>
-  Leverage the full power of Pardot custom redirects without ever leaving the Email Content Builder
 
 - **Tested on multiple email clients with Litmus**<br>
-  The play button is rendered on almost all modern email clients. For legacy clients like outlook, we fallback to an image.
 
 - **Fallback for environments where images are blocked**<br>
-  Support for corporate environments where images in Email are blocked
 
 - **Coded with accessibility in mind**
 
-- **Customize the video play button to light or dark shade**<br>
-  Customize the play button to match your thumbnail background
+- **Customization Options for the Play Button**
 
 
 ## Contact & Support
